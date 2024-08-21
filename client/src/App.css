@@ -1,0 +1,158 @@
+.App {
+    text-align: center;
+}
+.main {
+    width: 50%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(40, 40, 40);
+    margin: 0 auto;
+}
+
+.align-left {
+    text-align: left;
+    margin-left: 30px;
+}
+
+.align-right {
+    text-align: right;
+    margin-right: 30px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-bottom: 20px;
+}
+
+.wrapper,
+.wrapper-message {
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.wrapper input,
+.wrapper-message input {
+    font-size: 20px;
+    width: 200px;
+    border-radius: 10px 0 0 10px;
+    padding: 10px 20px;
+    border: none;
+}
+
+.wrapper-message button {
+    font-size: 20px;
+    border-radius: 0 10px 10px 0;
+    padding: 10px 20px;
+    border: none;
+    background-color: white;
+}
+
+.wrapper button {
+    font-size: 20px;
+    border-radius: 0 10px 10px 0;
+    padding: 10px 20px;
+    width: 128px;
+    border: none;
+    background-color: white;
+}
+.message-container {
+    position: fixed;
+    bottom: 0;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.wrapper button:hover,
+.wrapper-message button:hover {
+    background-color: rgb(183, 183, 183);
+    transition: all linear 0.2s;
+    cursor: pointer;
+}
+
+.message-container input,
+.message-container button {
+    height: 50px;
+    box-sizing: border-box;
+    margin: 0;
+    line-height: normal;
+    vertical-align: middle;
+}
+
+.message-container input {
+    width: 300px;
+}
+
+.message-container button {
+    padding: 0 20px;
+}
+.headers-wrapper h2 {
+    margin: 5px 0;
+}
+
+ul {
+    list-style-type: none;
+    width: 100%;
+    padding: 0;
+}
+
+li div {
+    min-width: 25%;
+    max-width: 60%;
+    display: inline-block;
+    margin-bottom: 15px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: pre-wrap;
+}
+
+.align-right div {
+    padding: 5px 10px 5px 20px;
+    background-color: rgb(0, 102, 210);
+    border-radius: 15px 5px 5px 15px;
+}
+
+.align-left div {
+    padding: 5px 20px 5px 10px;
+    background-color: rgb(23, 23, 23);
+    border-radius: 5px 15px 15px 5px;
+}
+
+.username,
+.time {
+    font-size: 15px;
+    color: rgb(200, 199, 199);
+}
+
+.side-bar {
+    margin-left: 30px;
+    position: fixed;
+    top: 40px;
+    left: 0px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.user-block {
+    display: flex;
+    align-items: center;
+}
+
+.user-block li {
+    margin-left: 10px;
+}
+
+h4 {
+    margin: 20px 0 0 0;
+}
+
+.headers-wrapper {
+    text-align: left;
+}
